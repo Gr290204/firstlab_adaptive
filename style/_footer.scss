@@ -1,0 +1,33 @@
+.footer{
+    &__top{
+        margin-bottom: 74px;
+    }
+    @media screen and (max-width:991px){
+        .row{
+            row-gap: 24px;
+            align-items: center;
+        }
+    }
+    
+    &__links{
+        text-align: center;
+        
+        &-item{
+            &-link{
+                font-size: 24px;
+                color: #0C2836;
+            }
+        }
+    }
+
+    &__info{
+        text-align: right;
+    }
+
+    &__copyright{
+        font-size: 14px;
+        text-align: center;
+        margin-bottom: 12px;
+    }
+
+}

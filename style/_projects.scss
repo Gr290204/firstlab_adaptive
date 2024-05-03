@@ -1,0 +1,28 @@
+.projects{
+    margin-bottom: 100px;
+    
+
+    &__card{
+        p{
+            line-height: 150%;
+        }
+        img{
+            border-radius: 15px;
+            margin-bottom: 12px;
+            width: 100%;
+        }
+        a{
+            display: inline-block;
+            font-weight: 600;
+            font-size: 18;
+            text-decoration: none;
+            color:#FFA239;
+            margin-bottom: 6px;
+            &:hover{
+                text-decoration: underline;
+            }
+            
+        }
+
+    }
+}
